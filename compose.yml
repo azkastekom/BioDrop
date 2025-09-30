@@ -6,7 +6,7 @@ services:
     restart: always
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     image: biodrop-app
     depends_on:
       - mongodb
